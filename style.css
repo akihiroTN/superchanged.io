@@ -205,10 +205,16 @@ a:hover{
 }
 button{
     transition: 0.5s;
+    border: solid 5px black;
+    background-color: black;
+    color:white;
+    font-weight: bold;
 }
 button:hover{
     background-color:dimgrey;
     transform: rotate(360deg);
+    border: solid 5px white;
+    font-weight: bold;
 }
 
 .body2{
