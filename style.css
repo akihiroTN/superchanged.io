@@ -84,8 +84,12 @@ span{color:white;
     padding-left: 25px;
 
 }
-.device{
-    width: 60%;
+.device1{
+    width: 20%;
+    display: inline-block;
+}
+.device2{
+    width: 40%;
     display: inline-block;
 }
 .title p{
@@ -196,6 +200,10 @@ span{color:white;
     text-align: center;
     margin:0px;
     padding:10px;
+}
+.business0{
+    font-size: 25px;
+    font-weight: bold;
 }
 .business1{
     font-size: 25px;
