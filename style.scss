@@ -7,9 +7,22 @@ $back: lightblue;
 html {
   background: white;
 }
-
+.direction {
+  display: none !important;
+}
+.video {
+  min-height: 900px;
+  max-height: 1000px;
+}
+.neon {
+  min-height: 900px;
+  max-height: 1000px;
+}
+.contents-wrapper {
+  margin-top: 100px;
+}
 .popout {
-  font-family: Futura, sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 900;
   font-size: 80px;
   padding-top: 80px;
@@ -54,15 +67,13 @@ html {
 }
 body {
   margin: 0;
-  background: #000;
   background-size: cover;
 }
-video {
+.neon {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -88,7 +99,6 @@ nav a {
 .animate {
   font-size: 50px;
   margin-top: 10px;
-  border-bottom: 2px solid #ccc;
 }
 
 .animate span {
@@ -154,66 +164,75 @@ nav a {
 }
 .c {
   margin-top: 0px;
-  color: #f8b9a8;
+  color: #ffbf35;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .r {
   margin-top: 0px;
-  color: antiquewhite;
+  color: rgb(0, 12, 231);
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .e {
   margin-top: 0px;
-  color: cyan;
+  color: #e94848;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .a {
   margin-top: 0px;
-  color: crimson;
+  color: #46f44c;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .t {
   margin-top: 0px;
-  color: cornflowerblue;
+  color: rgb(41, 236, 190);
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .i {
   margin-top: 0px;
-  color: chartreuse;
+  color: #e8f40f;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .v {
   margin-top: 0px;
-  color: springgreen;
+  color: rgb(1, 241, 49);
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .ve {
   margin-top: 0px;
-  color: chocolate;
+  color: #ffae06;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .pls {
   margin-top: 0px;
-  color: #dd5648;
+  color: #f30f0f;
   opacity: 1;
   transform: translate(0, -100px) rotate(360deg) scale(0);
   animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 .message {
   margin-top: 0px;
@@ -289,21 +308,9 @@ body {
 }
 .contents-wrapper {
   text-align: center;
-  margin-top: 150px;
+  background-color: white;
 }
 
-.contents-wrapper h2 {
-  margin-bottom: 100px;
-  color: #9fbcdf;
-  font-size: 40px;
-  font-family: "Itim", cursive;
-  border-radius: 30px;
-  border: dotted 4px #dbdbdb;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 230px;
-  display: inline-block;
-}
 .sealing-wrapper {
   display: inline-block;
   width: 100%;
@@ -314,15 +321,16 @@ body {
   width: 50%;
   text-align: right;
 }
-.sealing-img img {
+.elec {
   width: 100%;
   height: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .sealing {
   width: 100%;
   display: flex;
+  margin-bottom: 50px;
 }
 .sealingone {
   width: 100%;
@@ -493,6 +501,13 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .fllow {
+    display: none !important;
+  }
+  .direction {
+    display: inline-block !important;
+  }
+
   .sealingone {
     flex-direction: column;
     text-align: center;
@@ -613,17 +628,11 @@ body {
     width: 90%;
     margin: 0 5%;
   }
-  .contents-wrapper {
-    margin-top: 70px;
-  }
+
   .painting-title {
     margin-top: 30px;
   }
-  .sealing-title h2 {
-    font-size: 20px;
-    width: 140px;
-    margin-bottom: 70px;
-  }
+
   .painting-title h2 {
     font-size: 20px;
     width: 140px;
@@ -675,5 +684,74 @@ body {
   }
   .halftab p {
     font-size: 13px;
+  }
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+p {
+  margin: 20px;
+  font-size: 20px;
+  overflow: hidden; /*左右アニメーションで画面からはみ出る際に出る横スクロールバーを隠す*/
+}
+
+/*========= 流れるテキスト ===============*/
+
+/*全共通*/
+
+.slide-in {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.slide-in_inner {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 15px;
+}
+
+/*左右のアニメーション*/
+.leftAnime {
+  opacity: 0; /*事前に透過0にして消しておく*/
+}
+
+.slideAnimeLeftRight {
+  animation-name: slideTextX100;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideTextX100 {
+  from {
+    transform: translateX(-100%); /*要素を左の枠外に移動*/
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0); /*要素を元の位置に移動*/
+    opacity: 1;
+  }
+}
+
+.slideAnimeRightLeft {
+  animation-name: slideTextX-100;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideTextX-100 {
+  from {
+    transform: translateX(100%); /*要素を右の枠外に移動*/
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0); /*要素を元の位置に移動*/
+    opacity: 1;
   }
 }
