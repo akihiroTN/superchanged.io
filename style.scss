@@ -21,6 +21,28 @@ html {
 .contents-wrapper {
   margin-top: 100px;
 }
+.koyo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  padding-top: 10px;
+  margin: 5px 0px 0px 0px;
+  color: #f4f4f4;
+}
+.koyo-f {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  padding-top: 10px;
+  margin: 5px 0px 0px 0px;
+  color: #f4f4f4;
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+  color: gray;
+}
 .popout {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
@@ -262,7 +284,7 @@ nav a {
 }
 body {
   text-align: center;
-  margin: 15px 0px;
+  margin: 15px 0px 0px 0px;
   padding: 0px;
 }
 * {
@@ -343,7 +365,10 @@ body {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 200px;
+  background-color: #222;
 }
 .painting-title {
   margin-top: 150px;
@@ -395,8 +420,8 @@ body {
 }
 .button a {
   padding: 13px;
-  color: #aec4e5;
-  border: double #aec4e5;
+  color: black;
+  border: solid black;
   cursor: pointer;
   text-decoration: none;
 }
@@ -414,9 +439,8 @@ body {
   margin-bottom: 30px;
 }
 .painting-right {
-  margin-right: 3%;
-  width: 30%;
-  text-align: center;
+  width: 20%;
+  text-align: left;
 }
 .painting-right img {
   width: 100%;
@@ -424,29 +448,27 @@ body {
   max-width: 300px;
   max-height: 300px;
 }
-.painting-right p {
-  height: 80px;
-  line-height: 30px;
-  display: inline-block;
-  width: 300px;
+.painting-right-l {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 5px 0px 0px 0px;
+  color: #f4f4f4;
+}
+.painting-right-m {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: 5px;
+  color: #f4f4f4;
+  margin: 0px !important;
 }
 .painting-left {
-  width: 30%;
-  margin-left: 3%;
+  width: 60%;
+  margin-left: 10%;
   text-align: center;
 }
-.painting-left p {
-  height: 80px;
-  line-height: 30px;
-  display: inline-block;
-  width: 300px;
-}
-.painting-left img {
-  width: 100%;
-  height: 100%;
-  max-width: 300px;
-  max-height: 300px;
-}
+
 .paintcenter {
   display: flex;
   width: 100%;
@@ -501,6 +523,9 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .koyo-f {
+    font-size: 30px !important;
+  }
   .fllow {
     display: none !important;
   }
