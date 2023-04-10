@@ -10,6 +10,47 @@ html {
 .direction {
   display: none !important;
 }
+.mini-dis {
+  display: none;
+}
+.fllow-d {
+  display: inline-block;
+}
+.bousaijigyou {
+  color: whitesmoke !important;
+}
+.ourbousai {
+  margin: 2px !important;
+}
+.bousai-detail p {
+  font-size: 15px;
+}
+.bousai-detail {
+  opacity: 0;
+  animation-name: slideTextX100;
+  animation-fill-mode: forwards;
+  color: black !important;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 50%;
+  display: inline-block;
+  margin-top: 0px;
+  line-height: 3rem;
+  text-align: left;
+}
+.detail {
+  color: gray !important;
+  margin-top: 5px;
+  max-width: 557px;
+}
+.explain {
+  margin-top: 5%;
+}
+.sokuhou {
+  font-size: 25px !important;
+}
 .video {
   min-height: 900px;
   max-height: 1000px;
@@ -18,8 +59,11 @@ html {
   min-height: 900px;
   max-height: 1000px;
 }
-.contents-wrapper {
-  margin-top: 100px;
+.bousai-w {
+  margin-top: 3% !important;
+}
+.dpass {
+  margin-top: 10% !important;
 }
 .koyo {
   font-family: "Orbitron", sans-serif;
@@ -47,6 +91,7 @@ html {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   font-size: 80px;
+  margin-top: 115px;
   padding-top: 80px;
   margin-bottom: 0px;
 
@@ -343,6 +388,12 @@ body {
   width: 50%;
   text-align: right;
 }
+.dpass-img {
+  max-width: 50%;
+}
+.dpass-img img {
+  width: 25%;
+}
 .elec {
   width: 100%;
   height: 100%;
@@ -406,11 +457,23 @@ body {
   width: 50%;
   text-align: center;
 }
+.sentence-bousai {
+  max-width: 40%;
+  text-align: center;
+}
 
 .block {
   width: 310px;
   margin-left: 10%;
   margin-top: 8%;
+}
+.block-bousai {
+  max-width: 400px;
+  min-width: 300px;
+  margin-top: 8%;
+  display: inline-block;
+  margin: 0px;
+  text-align: left;
 }
 .painting p {
   height: 80px;
@@ -523,10 +586,31 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .bousai-detail {
+    max-width: 95%;
+    padding: 3px !important;
+  }
+  .detail {
+    margin-top: 1%;
+    margin-bottom: 0px;
+  }
+  .sokuhou {
+    margin-bottom: 5px !important;
+  }
+  .ourbousai {
+    margin: 0px !important;
+  }
+
+  .bousai-detail span {
+    font-size: 20px !important;
+  }
   .koyo-f {
     font-size: 30px !important;
   }
   .fllow {
+    display: none !important;
+  }
+  .fllow-d {
     display: none !important;
   }
   .direction {
@@ -544,15 +628,31 @@ body {
     width: 100%;
     text-align: center;
   }
+  .dpass-img {
+    max-width: 100%;
+  }
   .sentence {
     text-align: center;
     width: 100%;
+  }
+  .sentence-bousai {
+    text-align: center;
+    max-width: 100%;
   }
   .block {
     display: inline-block;
     margin: 0px;
   }
-
+  .block-bousai {
+    margin: 0px;
+    text-align: left;
+  }
+  .detail-p {
+    display: inline-block;
+  }
+  .block-bousai p {
+    display: inline-block;
+  }
   .paintcenter {
     flex-direction: column;
     text-align: center;
@@ -603,6 +703,15 @@ body {
   }
 }
 @media screen and (max-width: 670px) {
+  .bousai-detail {
+    line-height: 2rem;
+  }
+  .mini-dis {
+    display: inline-block;
+  }
+  .bousai-detail p {
+    font-size: 12px;
+  }
   .sealing-img img {
     width: 80%;
     height: 80%;
