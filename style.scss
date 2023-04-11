@@ -25,6 +25,30 @@ html {
   font-weight: bold;
   color: #ff0000;
 }
+.profile-wrapper {
+  text-align: center;
+}
+.profile h1 {
+  color: #a0522d;
+  font-size: 22px;
+  max-width: 100%;
+  display: inline-block;
+  letter-spacing: 0 !important;
+  font-family: "RocknRoll One", sans-serif;
+}
+.image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.profile i {
+  color: #d93177;
+  display: inline-block;
+  margin-left: 4px;
+}
+.profile a {
+  text-decoration: none;
+}
 
 .fadeInDown {
   -webkit-animation-fill-mode: both;
@@ -76,6 +100,18 @@ html {
 .ourbousai {
   margin: 2px !important;
 }
+.ourdesign {
+  margin: 5% !important;
+}
+.design-j {
+  text-align: left;
+  max-width: 50%;
+  display: inline-block;
+  margin: 2% 0 5% 0;
+}
+.design-j-w {
+  text-align: center;
+}
 .bousai-detail p {
   font-size: 15px;
 }
@@ -97,10 +133,11 @@ html {
 }
 
 .design-pic {
-  max-width: 25% !important;
+  max-width: 30% !important;
   text-align: center !important;
-  background-color: white !important;
-  opacity: 0.91 !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  border: none !important;
 }
 .design-pic img {
   max-width: 100%;
@@ -500,11 +537,14 @@ body {
   width: 100%;
   display: flex;
   text-align: center;
+  margin-top: 2%;
+  color: #8b4513;
 }
 
 .TextTyping {
   display: inline-block;
   width: 100%;
+  margin: 0px;
 }
 .TextTyping span {
   display: none;
@@ -698,13 +738,15 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .designjigyou {
+    margin-top: 30% !important;
+  }
   .design-img {
     max-width: 100%;
   }
   .design-pic {
-    max-width: 95% !important;
+    max-width: 40% !important;
   }
-
   .bousai-detail {
     max-width: 95%;
     padding: 3px !important;
@@ -822,6 +864,15 @@ body {
   }
 }
 @media screen and (max-width: 670px) {
+  .design-j {
+    text-align: left;
+    max-width: 90%;
+    display: inline-block;
+    margin: 2% 0 6% 0;
+  }
+  .design-pic {
+    max-width: 45% !important;
+  }
   .detail-p {
     font-size: 15px;
   }
