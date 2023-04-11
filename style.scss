@@ -146,14 +146,7 @@ html {
   animation-delay: 4s;
   animation: anime-img-move 15s ease-in-out 0s infinite normal;
 }
-// @keyframes rotate-anime {
-//   0% {
-//     transform: rotate(0);
-//   }
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }
+
 @keyframes anime-img-move {
   0% {
     transform: rotate(0);
