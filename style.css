@@ -826,8 +826,11 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .bousaijigyou {
+    margin-top: 25%;
+  }
   .designjigyou {
-    margin-top: 30% !important;
+    margin-top: 25% !important;
   }
   .design-img {
     max-width: 100%;
@@ -964,9 +967,6 @@ body {
   }
   .logo {
     font-size: 25px !important;
-  }
-  .bousaijigyou {
-    margin-top: 30%;
   }
   .bousai-detail {
     line-height: 2rem;
