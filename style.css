@@ -55,7 +55,7 @@ html {
 
 .fadeInDown {
   animation-fill-mode: both;
-  animation-duration: 1s;
+  animation-duration: 6s;
   animation-name: fadeInDown;
   visibility: visible !important;
 }
