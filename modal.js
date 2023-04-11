@@ -26,3 +26,39 @@ $(window).scroll(function () {
 $(window).on("load", function () {
   slideAnime(); /* アニメーション用の関数を呼ぶ*/
 }); // ここまで画面が読み込まれたらすぐに動かしたい場合の記述
+
+$("#animation").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation2").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation2").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation3").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation3").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});

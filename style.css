@@ -3,6 +3,43 @@ html {
   background: white;
 }
 
+#animation {
+  margin: 1% 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#animation2 {
+  margin: 1% 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#animation3 {
+  margin: 1% 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.fadeInDown {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-name: fadeInDown;
+  visibility: visible !important;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .direction {
   display: none !important;
 }
@@ -43,6 +80,16 @@ html {
   text-align: left;
 }
 
+.design-pic {
+  max-width: 25% !important;
+  text-align: center !important;
+  background-color: white !important;
+}
+
+.design-pic img {
+  max-width: 100%;
+}
+
 .detail {
   color: gray !important;
   margin-top: 5px;
@@ -50,7 +97,7 @@ html {
 }
 
 .explain {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .sokuhou {
@@ -73,6 +120,10 @@ html {
 
 .dpass {
   margin-top: 10% !important;
+}
+
+.design {
+  margin-top: 4% !important;
 }
 
 .koyo {
@@ -465,6 +516,14 @@ body {
   width: 25%;
 }
 
+.design-img {
+  max-width: 33%;
+}
+
+.design-img img {
+  max-width: 80%;
+}
+
 .elec {
   width: 100%;
   height: 100%;
@@ -688,6 +747,12 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .design-img {
+    max-width: 100%;
+  }
+  .design-pic {
+    max-width: 95% !important;
+  }
   .bousai-detail {
     max-width: 95%;
     padding: 3px !important;
