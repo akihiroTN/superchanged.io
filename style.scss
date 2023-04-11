@@ -93,12 +93,14 @@ html {
   margin-top: 0px;
   line-height: 3rem;
   text-align: left;
+  opacity: 0.88 !important;
 }
 
 .design-pic {
   max-width: 25% !important;
   text-align: center !important;
   background-color: white !important;
+  opacity: 0.91 !important;
 }
 .design-pic img {
   max-width: 100%;
@@ -494,7 +496,34 @@ body {
   display: flex;
   text-align: center;
 }
+.typetext {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
 
+.TextTyping {
+  display: inline-block;
+  width: 100%;
+}
+.TextTyping span {
+  display: none;
+}
+
+/*文字列後ろの線の設定*/
+.TextTyping::after {
+  content: "|";
+  animation: typinganime 0.8s ease infinite;
+}
+
+@keyframes typinganime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .painting-wrapper {
   width: 100%;
   text-align: center;
