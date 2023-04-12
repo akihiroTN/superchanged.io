@@ -3,6 +3,28 @@ html {
   background: white;
 }
 
+.partner-link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.partners-p {
+  margin-bottom: 4% !important;
+  margin-top: 4% !important;
+  font-size: 30px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.display-large {
+  display: block;
+}
+
 #animation {
   margin: 1% 0;
   font-size: 40px;
@@ -603,6 +625,22 @@ body {
   text-align: center;
 }
 
+.partners {
+  margin: 0px 0px 40px 0px !important;
+}
+
+.partner {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin: 0px;
+}
+
+.partner-w {
+  max-width: 70% !important;
+  text-align: center !important;
+}
+
 .typetext {
   width: 100%;
   display: flex;
@@ -838,6 +876,23 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .partners-p {
+    margin-bottom: 3% !important;
+    margin-top: 1% !important;
+  }
+  .dpass {
+    margin-top: 5% !important;
+  }
+  .partners {
+    margin: 0px !important;
+  }
+  .display-large {
+    display: none;
+  }
+  .partner {
+    width: 100%;
+    margin: 1.5%;
+  }
   .bousaijigyou {
     margin-top: 25%;
   }
