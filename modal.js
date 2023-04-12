@@ -63,6 +63,78 @@ $(window).scroll(function () {
   });
 });
 
+$("#animation4").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation4").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation5").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation5").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation6").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation6").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation7").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation7").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation8").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation8").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
+$("#animation9").css("visibility", "hidden");
+$(window).scroll(function () {
+  var windowHeight = $(window).height(),
+    topWindow = $(window).scrollTop();
+  $("#animation9").each(function () {
+    var targetPosition = $(this).offset().top;
+    if (topWindow > targetPosition - windowHeight + 100) {
+      $(this).addClass("fadeInDown");
+    }
+  });
+});
+
 // TextTypingというクラス名がついている子要素（span）を表示から非表示にする定義
 function TextTypingAnime() {
   $(".TextTyping").each(function () {

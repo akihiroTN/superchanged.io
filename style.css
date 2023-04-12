@@ -7,6 +7,10 @@ html {
   text-decoration: none;
 }
 
+.e-access {
+  border: none !important;
+}
+
 a:visited {
   color: inherit;
 }
@@ -634,6 +638,8 @@ body {
   width: 33%;
   text-align: center;
   margin: 0px;
+  border: solid 1px black;
+  margin-left: 1% !important;
 }
 
 .partner-w {
@@ -879,6 +885,9 @@ body {
   .partners-p {
     margin-bottom: 3% !important;
     margin-top: 1% !important;
+  }
+  .partner {
+    margin-bottom: 5% !important;
   }
   .dpass {
     margin-top: 5% !important;
