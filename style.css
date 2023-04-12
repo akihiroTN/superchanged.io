@@ -7,6 +7,10 @@ html {
   text-decoration: none;
 }
 
+.sokuhou-k {
+  margin-top: 1% !important;
+}
+
 .e-access {
   border: none !important;
 }
@@ -882,6 +886,9 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .sokuhou-k {
+    margin-top: 4% !important;
+  }
   .partners-p {
     margin-bottom: 3% !important;
     margin-top: 1% !important;
