@@ -7,7 +7,9 @@ $back: lightblue;
 a {
   text-decoration: none !important;
 }
-
+.block p {
+  color: black !important;
+}
 html {
   background: white;
 }
@@ -658,6 +660,7 @@ body {
 }
 .TextTyping span {
   display: none;
+  color: black !important;
 }
 
 /*文字列後ろの線の設定*/
@@ -845,6 +848,9 @@ body {
 .header-wrapper a {
   text-decoration: none;
   color: #4682b4;
+}
+.detail-p {
+  color: black !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1046,7 +1052,6 @@ body {
   }
   .block p {
     font-size: 14px;
-    color: black !important;
   }
 
   .painting-left img {

@@ -3,6 +3,10 @@ a {
   text-decoration: none !important;
 }
 
+.block p {
+  color: black !important;
+}
+
 html {
   background: white;
 }
@@ -729,6 +733,7 @@ body {
 
 .TextTyping span {
   display: none;
+  color: black !important;
 }
 
 /*文字列後ろの線の設定*/
@@ -947,6 +952,10 @@ body {
   color: #4682b4;
 }
 
+.detail-p {
+  color: black !important;
+}
+
 @media screen and (max-width: 1000px) {
   .sokuhou-k {
     margin-top: 4% !important;
@@ -1143,7 +1152,6 @@ body {
   }
   .block p {
     font-size: 14px;
-    color: black !important;
   }
   .painting-left img {
     width: 80%;
