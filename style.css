@@ -1053,6 +1053,7 @@ body {
   }
   .detail-p {
     display: inline-block;
+    color: black !important;
   }
   .block-bousai p {
     display: inline-block;
