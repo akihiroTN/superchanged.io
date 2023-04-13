@@ -180,6 +180,14 @@ h3 {
   font-family: "Train One", cursive !important;
 }
 
+.weather {
+  font-family: "Kaisei Decol", serif !important;
+}
+
+.weather-w {
+  margin-top: 5%;
+}
+
 .ourbousai {
   margin: 2px !important;
 }
