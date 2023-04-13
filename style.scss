@@ -7,6 +7,14 @@ $back: lightblue;
 html {
   background: white;
 }
+.kaisya {
+  color: white !important;
+  padding: 10px;
+  background-color: #2693f3;
+  opacity: 0.8;
+  border-top-right-radius: 3em 1em;
+  margin-bottom: 3% !important;
+}
 
 .container {
   margin: 10px;
@@ -20,13 +28,17 @@ dl {
   flex-wrap: wrap;
   text-align: left;
   width: 100%;
+  color: gray;
 }
-
+.logo-c span {
+  color: black !important;
+}
 .container dt {
   /* ブロック要素からインライン要素に変更する */
   display: block;
   width: 35%;
   margin-bottom: 10%;
+  font-weight: bold;
 }
 .container dd {
   /* ブロック要素からインライン要素に変更する */
@@ -979,6 +991,11 @@ body {
   }
 }
 @media screen and (max-width: 670px) {
+  .kaisya {
+    font-size: 30px !important;
+    margin-top: 50% !important;
+    margin-bottom: 30% !important;
+  }
   .design-j {
     text-align: left;
     max-width: 90%;
