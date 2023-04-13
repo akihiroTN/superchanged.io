@@ -172,6 +172,10 @@ h3 {
   color: whitesmoke !important;
 }
 
+.sample-i {
+  font-family: "Train One", cursive !important;
+}
+
 .ourbousai {
   margin: 2px !important;
 }
@@ -185,6 +189,7 @@ h3 {
   max-width: 50%;
   display: inline-block;
   margin: 2% 0 5% 0;
+  color: black !important;
 }
 
 .design-j-w {
@@ -1138,6 +1143,7 @@ body {
   }
   .block p {
     font-size: 14px;
+    color: black !important;
   }
   .painting-left img {
     width: 80%;
