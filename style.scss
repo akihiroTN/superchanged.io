@@ -4,6 +4,10 @@ $n: 3;
 $e: cubic-bezier(0.86, 0, 0.07, 1);
 $front: white;
 $back: lightblue;
+a {
+  text-decoration: none !important;
+}
+
 html {
   background: white;
 }
