@@ -36,7 +36,6 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
-      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -52,119 +51,6 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
-      //左から右へ表示するクラスを取り除く
-      $("fadeInDown").css("display", "none");
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation3").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation3").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      //左から右へ表示するクラスを取り除く
-      $("fadeInDown").css("display", "none");
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation4").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation4").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
-      //左から右へ表示するクラスを取り除く
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation5").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation5").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
-      //左から右へ表示するクラスを取り除く
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation6").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation6").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
-      //左から右へ表示するクラスを取り除く
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation7").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation7").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
-      //左から右へ表示するクラスを取り除く
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation8").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation8").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
-      //左から右へ表示するクラスを取り除く
-      $(this).removeClass("fadeInDown");
-    }
-  });
-});
-
-$("#animation9").css("visibility", "hidden");
-$(window).scroll(function () {
-  var windowHeight = $(window).height(),
-    topWindow = $(window).scrollTop();
-  $("#animation9").each(function () {
-    var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight) {
-      $(this).addClass("fadeInDown");
-    } else {
-      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
