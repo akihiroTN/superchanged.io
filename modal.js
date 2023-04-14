@@ -33,8 +33,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -45,8 +48,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation2").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -57,8 +63,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation3").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -69,8 +78,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation4").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -81,8 +93,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation5").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -93,8 +108,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation6").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -105,8 +123,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation7").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -117,8 +138,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation8").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
@@ -129,8 +153,11 @@ $(window).scroll(function () {
     topWindow = $(window).scrollTop();
   $("#animation9").each(function () {
     var targetPosition = $(this).offset().top;
-    if (topWindow > targetPosition - windowHeight + 100) {
+    if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
+    } else {
+      //左から右へ表示するクラスを取り除く
+      $(this).removeClass("fadeInDown");
     }
   });
 });
