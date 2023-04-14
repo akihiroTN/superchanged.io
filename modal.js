@@ -36,6 +36,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -52,6 +53,7 @@ $(window).scroll(function () {
       $(this).addClass("fadeInDown");
     } else {
       //左から右へ表示するクラスを取り除く
+      $("fadeInDown").css("display", "none");
       $(this).removeClass("fadeInDown");
     }
   });
@@ -67,6 +69,7 @@ $(window).scroll(function () {
       $(this).addClass("fadeInDown");
     } else {
       //左から右へ表示するクラスを取り除く
+      $("fadeInDown").css("display", "none");
       $(this).removeClass("fadeInDown");
     }
   });
@@ -81,6 +84,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -96,6 +100,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -111,6 +116,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -126,6 +132,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -141,6 +148,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
@@ -156,6 +164,7 @@ $(window).scroll(function () {
     if (topWindow > targetPosition - windowHeight) {
       $(this).addClass("fadeInDown");
     } else {
+      $("fadeInDown").css("display", "none");
       //左から右へ表示するクラスを取り除く
       $(this).removeClass("fadeInDown");
     }
