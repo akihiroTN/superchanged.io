@@ -7,6 +7,7 @@ window.onload = function () {
   const ba = document.getElementById("ba");
   const bt = document.getElementById("bt");
   const bi = document.getElementById("bi");
+  const bv = document.getElementById("bv");
   const bve = document.getElementById("bve");
   const bpls = document.getElementById("bpls");
   const bplsa = document.getElementById("bplsa");
@@ -18,6 +19,7 @@ window.onload = function () {
     ba.classList.add("a");
     bt.classList.add("t");
     bi.classList.add("i");
+    bv.classList.add("v");
     bve.classList.add("ve");
     bpls.classList.add("pls");
     bplsa.classList.add("pls");

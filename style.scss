@@ -23,78 +23,6 @@ $back: lightblue;
     opacity: 0;
     visibility: hidden;
   }
-  &.c {
-    margin-top: 0px;
-    color: #ffbf35;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.r {
-    margin-top: 0px;
-    color: rgb(0, 12, 231);
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.e {
-    margin-top: 0px;
-    color: #e94848;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.a {
-    margin-top: 0px;
-    color: #46f44c;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.t {
-    margin-top: 0px;
-    color: rgb(41, 236, 190);
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.i {
-    margin-top: 0px;
-    color: #e8f40f;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.v {
-    margin-top: 0px;
-    color: rgb(1, 241, 49);
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.ve {
-    margin-top: 0px;
-    color: #ffae06;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
-  &.pls {
-    margin-top: 0px;
-    color: #f30f0f;
-    opacity: 1;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: revolveDrop 0.3s forwards;
-    font-weight: bold;
-  }
 
   /* ローディング中のアニメーション */
   @keyframes spin {
@@ -860,6 +788,85 @@ nav a {
 }
 .animate span:nth-of-type(20) {
   animation-delay: 0.95s;
+}
+.c {
+  margin-top: 0px;
+  color: #ffbf35;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.r {
+  margin-top: 0px;
+  color: rgb(0, 12, 231);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.e {
+  margin-top: 0px;
+  color: #e94848;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.a {
+  margin-top: 0px;
+  color: #46f44c;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.t {
+  margin-top: 0px;
+  color: rgb(41, 236, 190);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.i {
+  margin-top: 0px;
+  color: #e8f40f;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.v {
+  margin-top: 0px;
+  color: rgb(1, 241, 49);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.ve {
+  margin-top: 0px;
+  color: #ffae06;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.pls {
+  margin-top: 0px;
+  color: #f30f0f;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+.message {
+  margin-top: 0px;
+  color: white;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
 }
 
 @keyframes revolveDrop {

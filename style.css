@@ -25,78 +25,6 @@
   opacity: 0;
   visibility: hidden;
 }
-#loading.c {
-  margin-top: 0px;
-  color: #ffbf35;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.r {
-  margin-top: 0px;
-  color: rgb(0, 12, 231);
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.e {
-  margin-top: 0px;
-  color: #e94848;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.a {
-  margin-top: 0px;
-  color: #46f44c;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.t {
-  margin-top: 0px;
-  color: rgb(41, 236, 190);
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.i {
-  margin-top: 0px;
-  color: #e8f40f;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.v {
-  margin-top: 0px;
-  color: rgb(1, 241, 49);
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.ve {
-  margin-top: 0px;
-  color: #ffae06;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
-#loading.pls {
-  margin-top: 0px;
-  color: #f30f0f;
-  opacity: 1;
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: revolveDrop 0.3s forwards;
-  font-weight: bold;
-}
 @keyframes spin {
   from {
     transform: rotate(0);
@@ -186,7 +114,11 @@
   align-items: center;
   border-radius: 50%;
   background: rgb(63, 249, 220);
-  background: linear-gradient(0deg, rgba(63, 249, 220, 0.1) 33%, rgb(63, 249, 220) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 249, 220, 0.1) 33%,
+    rgb(63, 249, 220) 100%
+  );
   animation: spin3D 1.8s linear 0s infinite;
 }
 #loading .leo-core-1 {
@@ -205,7 +137,11 @@
   align-items: center;
   border-radius: 50%;
   background: rgb(251, 91, 83);
-  background: linear-gradient(0deg, rgba(251, 91, 83, 0.1) 33%, rgb(251, 91, 83) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(251, 91, 83, 0.1) 33%,
+    rgb(251, 91, 83) 100%
+  );
   animation: spin3D 2.2s linear 0s infinite;
 }
 #loading .leo-core-2 {
@@ -223,7 +159,11 @@
   align-items: center;
   border-radius: 50%;
   background: rgb(63, 249, 220);
-  background: linear-gradient(0deg, rgba(63, 249, 220, 0.1) 33%, rgb(63, 249, 220) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 249, 220, 0.1) 33%,
+    rgb(63, 249, 220) 100%
+  );
   animation: spin 0.8s linear 0s infinite;
 }
 #loading .circle-core {
@@ -740,9 +680,9 @@ body {
   left: 0;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 div#fashion {
@@ -849,6 +789,87 @@ nav a {
 
 .animate span:nth-of-type(20) {
   animation-delay: 0.95s;
+}
+
+.c {
+  margin-top: 0px;
+  color: #ffbf35;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.r {
+  margin-top: 0px;
+  color: rgb(0, 12, 231);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.e {
+  margin-top: 0px;
+  color: #e94848;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.a {
+  margin-top: 0px;
+  color: #46f44c;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.t {
+  margin-top: 0px;
+  color: rgb(41, 236, 190);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.i {
+  margin-top: 0px;
+  color: #e8f40f;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.v {
+  margin-top: 0px;
+  color: rgb(1, 241, 49);
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.ve {
+  margin-top: 0px;
+  color: #ffae06;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
+}
+
+.pls {
+  margin-top: 0px;
+  color: #f30f0f;
+  opacity: 1;
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: revolveDrop 0.3s forwards;
+  font-weight: bold;
 }
 
 @keyframes revolveDrop {
@@ -1580,4 +1601,4 @@ p {
     transform: translateX(0); /*要素を元の位置に移動*/
     opacity: 1;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
