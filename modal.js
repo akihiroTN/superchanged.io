@@ -1,3 +1,8 @@
+//====ロード後のアニメーションを隠す===
+window.onload = function () {
+  const spinner = document.getElementById("loading");
+  spinner.classList.add("loaded");
+};
 function slideAnime() {
   //====左に動くアニメーションここから===
   $(".leftAnime").each(function () {
