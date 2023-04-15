@@ -4,6 +4,10 @@ window.onload = function () {
   spinner.classList.add("loaded");
   //====ロード後のスクロールの位置をトップに持ってくる===
   $(function () {
+    var page_url = location.href;
+    if (/#/.test(page_url)) {
+      return;
+    }
     $("html,body").animate({ scrollTop: 0 }, "1");
   });
 };
