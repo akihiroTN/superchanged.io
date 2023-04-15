@@ -1,15 +1,36 @@
 //====ロード後のアニメーションを隠す===
 window.onload = function () {
   const spinner = document.getElementById("loading");
+  const bc = document.getElementById("bc");
+  const br = document.getElementById("br");
+  const be = document.getElementById("be");
+  const ba = document.getElementById("ba");
+  const bt = document.getElementById("bt");
+  const bi = document.getElementById("bi");
+  const bve = document.getElementById("bve");
+  const bpls = document.getElementById("bpls");
+  const bplsa = document.getElementById("bplsa");
+  var page_url = location.href;
+  if (/index/.test(page_url)) {
+    bc.classList.add("c");
+    br.classList.add("r");
+    be.classList.add("e");
+    ba.classList.add("a");
+    bt.classList.add("t");
+    bi.classList.add("i");
+    bve.classList.add("ve");
+    bpls.classList.add("pls");
+    bplsa.classList.add("pls");
+  }
   spinner.classList.add("loaded");
   //====ロード後のスクロールの位置をトップに持ってくる===
   $(function () {
-    var page_url = location.href;
     if (/#/.test(page_url)) {
       return;
     }
     $("html,body").animate({ scrollTop: 0 }, "1");
   });
+  slideAnime();
 };
 function slideAnime() {
   //====左に動くアニメーションここから===
