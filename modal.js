@@ -2,6 +2,10 @@
 window.onload = function () {
   const spinner = document.getElementById("loading");
   spinner.classList.add("loaded");
+  //====ロード後のスクロールの位置をトップに持ってくる===
+  $(function () {
+    $("html,body").animate({ scrollTop: 0 }, "1");
+  });
 };
 function slideAnime() {
   //====左に動くアニメーションここから===
