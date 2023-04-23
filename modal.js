@@ -12,7 +12,10 @@ window.onload = function () {
   const bpls = document.getElementById("bpls");
   const bplsa = document.getElementById("bplsa");
   var page_url = location.href;
-  if (page_url === "https://koyo.ink/") {
+  if (
+    page_url === "https://koyo.ink/" ||
+    page_url === "https://koyo.ink#ourbusiness"
+  ) {
     bc.classList.add("c");
     br.classList.add("r");
     be.classList.add("e");
