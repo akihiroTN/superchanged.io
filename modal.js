@@ -12,7 +12,7 @@ window.onload = function () {
   const bpls = document.getElementById("bpls");
   const bplsa = document.getElementById("bplsa");
   var page_url = location.href;
-  if (/index/.test(page_url) || !/\//.test(page_url)) {
+  if (/index/.test(page_url) || !page_url.includes("/")) {
     bc.classList.add("c");
     br.classList.add("r");
     be.classList.add("e");
