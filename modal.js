@@ -14,7 +14,7 @@ window.onload = function () {
   var page_url = location.href;
   if (
     page_url === "https://koyo.ink/" ||
-    page_url === "https://koyo.ink#ourbusiness"
+    page_url === "https://koyo.ink/#ourbusiness"
   ) {
     bc.classList.add("c");
     br.classList.add("r");
